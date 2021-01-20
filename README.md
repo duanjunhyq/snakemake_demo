@@ -1,2 +1,2 @@
-# Snakeake: How to install and use
+# Snakemake: How to install and use
 
