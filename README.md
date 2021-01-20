@@ -1,1 +1,2 @@
-# snakemake_demo
+# Snakeake: How to install and use
+
