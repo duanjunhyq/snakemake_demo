@@ -1,0 +1,3 @@
+NameError in line 1 of /home/dj/snakemake_demo/demo/example_1/example1.4_snakefile:
+name 'A' is not defined
+  File "/home/dj/snakemake_demo/demo/example_1/example1.4_snakefile", line 1, in <module>

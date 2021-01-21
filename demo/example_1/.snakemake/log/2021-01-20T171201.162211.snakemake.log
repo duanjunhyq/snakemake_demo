@@ -1,0 +1,2 @@
+SyntaxError in line 3 of /home/dj/snakemake_demo/demo/example_1/Snakefile:
+invalid character '“' (U+201C)

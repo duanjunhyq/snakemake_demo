@@ -1,0 +1,15 @@
+rule copy:
+    input:
+        "{file}_input.txt"
+    output:
+        "{file}_copy.txt"
+    shell:
+        "cp {input} {output}"
+
+rule uppercase:
+    input:
+        "{file}_copy.txt"
+    output:
+        "{file}_output.txt"
+    shell:
+        "dd if={input} of={output} conv=ucase"

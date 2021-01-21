@@ -1,0 +1,32 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job counts:
+	count	jobs
+	1	copy
+	1	uppercase
+	2
+Select jobs to execute...
+
+[Wed Jan 20 17:52:03 2021]
+rule copy:
+    input: A_input.txt
+    output: A_copy.txt
+    jobid: 1
+
+[Wed Jan 20 17:52:03 2021]
+Finished job 1.
+1 of 2 steps (50%) done
+Select jobs to execute...
+
+[Wed Jan 20 17:52:03 2021]
+rule uppercase:
+    input: A_copy.txt
+    output: A_output.txt
+    jobid: 0
+
+[Wed Jan 20 17:52:03 2021]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: /home/dj/snakemake_demo/demo/example_1/.snakemake/log/2021-01-20T175203.088836.snakemake.log

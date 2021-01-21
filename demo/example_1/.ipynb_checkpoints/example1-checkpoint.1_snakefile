@@ -1,0 +1,7 @@
+rule copy:
+    input:
+        "A_input.txt"
+    output:
+        "A_output.txt"
+    shell:
+        "cp {input} {output}"

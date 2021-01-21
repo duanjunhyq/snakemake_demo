@@ -1,0 +1,2 @@
+SyntaxError in line 25 of /home/dj/snakemake_demo/demo/example_1/example1.4_snakefile:
+EOF in multi-line statement (example1.4_snakefile, line 25)
